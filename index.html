@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Czarna strona z linkami i obrazem</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('kosmos.webp'); 
+            background-size: cover; 
+            background-position: center;
+            color: white; /* Biały kolor tekstu */
+            display: flex;
+            justify-content: space-between; 
+            align-items: center; 
+            height: 100vh; 
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column; 
+            margin-left: 150px; 
+        }
+
+        a {
+            color: white; 
+            text-decoration: none; 
+            font-size: 24px; 
+            margin: 25px 0; 
+            padding: 15px 30px; 
+            border: 2px solid white; 
+            border-radius: 10px; 
+            
+        }
+
+        a:hover {
+            background-color: white; 
+            color: black; 
+        }
+
+        .image {
+            margin-right: 300px; 
+        }
+
+        .image img {
+            max-width: 800px; 
+            border-radius: 30px; 
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="links">
+        <a href="https://playvalorant.com/en-us/agents/">Agenci</a>
+        <a href="https://playvalorant.com/en-us/maps/">Mapy</a>
+        <a href="https://playvalorant.com/en-us/arsenal/">Bronie</a>
+        <a href="https://playvalorant.com/en-us/news/game-updates/everything-you-need-to-know-about-premier/">Premier</a>
+    </div>
+    <div class="image">
+        <img src="pobrany plik.jpg" alt="Obraz po prawej stronie"> 
+    </div>
+</body>
+</html>
